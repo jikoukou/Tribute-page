@@ -1,0 +1,39 @@
+figure {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: 80px auto;
+  background-color: blue;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.bold {
+  font-weight: bold;
+  margin-right: 1vw;
+}
+
+section {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.quote {
+  font-style: italic;
+}
+
+ul > li {
+  line-height: 2.5rem;
+  list-style: none;
+}
+
+nav > ul > li {
+  font-size: 1.25rem;
+}
