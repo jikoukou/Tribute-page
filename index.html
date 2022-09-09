@@ -14,7 +14,6 @@
   <body>
     <header>
       <h1 id="title">Sir Christofer Lee</h1>
-      <p>A great actor and philanthropist</p>
       <nav>
         <ul>
           <li>
@@ -29,9 +28,10 @@
       </nav>
     </header>
     <main id="main">
+      <p>A great actor and philanthropist</p>
       <figure id="img-div">
         <img
-          id="img"
+          id="image"
           src="images/black_white.jpg"
           alt="Sir Christofer Lee in black and white"
         />
@@ -39,20 +39,25 @@
           An image of Sir Christofer Lee in black and white taken by Bryan Adams
         </figcaption>
       </figure>
-      <article name="description" class="desc">
+      <div class="basic">
         <section class="personal-info" id="personal-info">
           <h2>Personal info</h2>
 
           <ul>
-            <li><span class="bold"> Date of Birth</span>27/05/1922</li>
-            <li><span class="bold">Place of birth</span>Belgravia, London</li>
-            <li><span class="bold">Professions</span>Actor, Singer</li>
-            <li><span class="bold">Wife</span>Birgit Krøncke (from 1961)</li>
-            <li><span class="bold">Date of death</span>07/07/2015</li>
+            <li><span class="bold"> Date of Birth</span></li>
+            <li><span class="bold">Place of birth</span></li>
+            <li><span class="bold">Professions</span></li>
+            <li><span class="bold">Wife</span></li>
+            <li><span class="bold">Date of death</span></li>
+            <li>27/05/1922</li>
+            <li>Belgravia, London</li>
+            <li>Actor, Singer</li>
+            <li>Birgit Krøncke (from 1961)</li>
+            <li>07/07/2015</li>
           </ul>
         </section>
 
-        <section id="key-dates" name="key-dates">
+        <section id="key-dates">
           <h2>Key dates of his life</h2>
           <ul>
             <li>
@@ -89,12 +94,23 @@
             </li>
           </ul>
         </section>
-
-        <section name="quote">
+      </div>
+      <div class="main-content">
+        <p class="quote">
           We don't always get the kind of work we want, but we always have a
           choice of whether to do it with good grace or not.
-        </section>
-      </article>
+        </p>
+
+        <p id="tribute-info">
+          For more information please visit this
+          <a
+            href="https://en.wikipedia.org/wiki/Christopher_Lee"
+            id="tribute-link"
+            target="_blank"
+            >Wikipedia page.</a
+          >
+        </p>
+      </div>
     </main>
   </body>
 </html>

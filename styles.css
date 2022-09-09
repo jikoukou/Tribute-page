@@ -1,10 +1,45 @@
+* {
+  color: #f0f0f0;
+  font-family: Helvetica, sans-serif;
+}
+
 figure {
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  margin: 80px auto;
-  background-color: blue;
+  background-color: #c5d5c5;
+  margin: 0 auto;
+  width: 100%;
+}
+
+figcaption {
+  color: black;
+  font-size: 1.6em;
+}
+
+section {
+  border: medium dashed green;
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #9fa9a3;
+}
+
+nav {
+  display: flex;
+}
+
+html {
+  background-color: #3b3a30;
+  width: 100%;
 }
 
 figure img {
@@ -18,7 +53,7 @@ figure img {
   margin-right: 1vw;
 }
 
-section {
+.main-content {
   display: flex;
   flex-flow: column;
   justify-content: space-evenly;
@@ -29,11 +64,22 @@ section {
   font-style: italic;
 }
 
+.personal-info {
+  padding: 2vw;
+}
+.basic {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
 ul > li {
   line-height: 2.5rem;
   list-style: none;
 }
 
+.personal-info > ul {
+  column-count: 2;
+}
 nav > ul > li {
   font-size: 1.25rem;
 }
