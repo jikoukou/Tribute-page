@@ -10,6 +10,7 @@ figure {
   background-color: #c5d5c5;
   margin: 0 auto 0 auto;
   width: 100%;
+  padding-bottom: 40px;
 }
 
 figcaption {
@@ -85,8 +86,11 @@ figure img {
   margin: 20px;
 }
 ul > li {
-  line-height: 2.5rem;
   list-style: none;
+}
+
+main ul > li {
+  line-height: 2.5rem;
 }
 
 .personal-info > ul {
