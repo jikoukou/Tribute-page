@@ -1,6 +1,5 @@
-* {
-  color: #f0f0f0;
-  font-family: Helvetica, sans-serif;
+main p {
+  font-size: 1.2rem;
 }
 
 figure {
@@ -9,7 +8,7 @@ figure {
   justify-content: center;
   align-items: center;
   background-color: #c5d5c5;
-  margin: 0 auto;
+  margin: 0 auto 0 auto;
   width: 100%;
 }
 
@@ -19,8 +18,9 @@ figcaption {
 }
 
 section {
-  border: medium dashed green;
+  border: medium dashed lightgreen;
   font-size: 1.2rem;
+  padding: 20px;
 }
 
 h3 {
@@ -28,18 +28,30 @@ h3 {
 }
 
 header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   background-color: #9fa9a3;
+  align-items: center;
 }
 
 nav {
   display: flex;
+  padding-right: 10px;
 }
 
-html {
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+.main-content a {
   background-color: #3b3a30;
-  width: 100%;
+  color: #f0f0f0;
+  font-family: Helvetica, sans-serif;
 }
 
 figure img {
@@ -81,5 +93,16 @@ ul > li {
   column-count: 2;
 }
 nav > ul > li {
+  color: #f0f0f0;
+  display: block;
   font-size: 1.25rem;
+}
+
+nav > ul > li:hover {
+  background-color: black;
+  cursor: pointer;
+}
+li > a {
+  color: inherit;
+  text-decoration: none;
 }
